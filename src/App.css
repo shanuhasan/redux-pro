@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.home__cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  width: 50%;
+  margin: auto;
+}
+.home__image  > img {
+  width: 100px;
+}
+.home__info > button{
+  background-color: #3179ff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #3179ff;
+}
